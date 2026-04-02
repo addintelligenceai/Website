@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Add Intelligence | +AI Consulting for Small & Mid-Size Businesses | Tampa Bay, FL</title>
+<meta name="description" content="Add Intelligence (+AI) helps small and mid-size businesses in Tampa Bay implement AI solutions that save time, cut costs, and automate busywork. Free consultation available.">
+<meta name="keywords" content="AI consulting, artificial intelligence consulting, AI for small business, AI automation Tampa Bay, chatbot development, business automation Pinellas County, Hillsborough County AI, workflow automation Florida, AI readiness audit, small business AI solutions, Add Intelligence">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://addintelligence.ai">
+<meta property="og:title" content="Add Intelligence (+AI) | AI Consulting for Small & Mid-Size Businesses">
+<meta property="og:description" content="Stop losing hours to busywork. We add AI to Tampa Bay businesses. Free consultation.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://addintelligence.ai">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg-deep:#08090d;
+  --bg-card:#0f1117;
+  --bg-card-hover:#161821;
+  --bg-subtle:#1a1c25;
+  --accent:#00d4aa;
+  --accent-dim:#00a88a;
+  --accent-glow:rgba(0,212,170,0.15);
+  --accent-glow-strong:rgba(0,212,170,0.3);
+  --blue:#3b82f6;
+  --blue-dim:#2563eb;
+  --amber:#f59e0b;
+  --text-primary:#e8eaed;
+  --text-secondary:#9ca3af;
+  --text-muted:#6b7280;
+  --border:#1e2030;
+  --border-light:#2a2d3e;
+  --font-display:'Syne',sans-serif;
+  --font-body:'DM Sans',sans-serif;
+  --grain:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+}
+html{scroll-behavior:smooth;font-size:16px}
+body{
+  background:var(--bg-deep);
+  color:var(--text-primary);
+  font-family:var(--font-body);
+  line-height:1.65;
+  overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
+}
+body::after{
+  content:'';position:fixed;inset:0;pointer-events:none;z-index:9999;
+  background:var(--grain);opacity:0.4;
+}
+
+.container{max-width:1200px;margin:0 auto;padding:0 24px}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+
+/* --- NAV --- */
+nav{
+  position:fixed;top:0;left:0;right:0;z-index:100;
+  background:rgba(8,9,13,0.85);
+  backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
+  border-bottom:1px solid var(--border);
+}
+.nav-inner{
+  display:flex;align-items:center;justify-content:space-between;
+  max-width:1200px;margin:0 auto;padding:14px 24px;
+}
+.logo{
+  display:flex;align-items:center;gap:10px;
+  text-decoration:none;
+}
+.logo-mark{
+  display:flex;align-items:center;justify-content:center;
+  width:38px;height:38px;
+  background:linear-gradient(135deg,var(--accent),#00b894);
+  border-radius:10px;
+  font-family:var(--font-display);font-weight:800;font-size:1rem;
+  color:var(--bg-deep);letter-spacing:-0.03em;
+  position:relative;
+  box-shadow:0 0 20px rgba(0,212,170,0.2);
+}
+.logo-text{
+  font-family:var(--font-display);font-weight:700;font-size:1.2rem;
+  color:var(--text-primary);letter-spacing:-0.02em;
+}
+.logo-text span{color:var(--accent);font-weight:800}
+.nav-links{display:flex;gap:32px;align-items:center;list-style:none}
+.nav-links a{
+  font-family:var(--font-body);font-size:0.875rem;font-weight:500;
+  color:var(--text-secondary);text-decoration:none;
+  transition:color 0.25s;letter-spacing:0.01em;
+}
+.nav-links a:hover{color:var(--accent)}
+.nav-cta{
+  background:var(--accent) !important;color:var(--bg-deep) !important;
+  padding:10px 22px;border-radius:8px;font-weight:600 !important;font-size:0.875rem;
+  text-decoration:none;transition:all 0.3s;
+  font-family:var(--font-body);
+}
+.nav-cta:hover{background:#00e8b8 !important;box-shadow:0 0 24px var(--accent-glow-strong)}
+
+/* --- HERO --- */
+.hero{
+  min-height:100vh;display:flex;align-items:center;
+  padding:120px 0 80px;position:relative;overflow:hidden;
+}
+.hero::before{
+  content:'';position:absolute;top:-40%;right:-20%;
+  width:800px;height:800px;
+  background:radial-gradient(circle,rgba(0,212,170,0.06) 0%,transparent 70%);
+  pointer-events:none;
+}
+.hero::after{
+  content:'';position:absolute;bottom:-30%;left:-15%;
+  width:600px;height:600px;
+  background:radial-gradient(circle,rgba(59,130,246,0.04) 0%,transparent 70%);
+  pointer-events:none;
+}
+.hero-grid{
+  display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;
+  position:relative;z-index:2;
+}
+.hero-content{max-width:560px}
+.hero-tag{
+  display:inline-flex;align-items:center;gap:8px;
+  background:var(--accent-glow);
+  border:1px solid rgba(0,212,170,0.2);
+  border-radius:100px;padding:6px 16px;margin-bottom:28px;
+  font-size:0.8rem;font-weight:600;color:var(--accent);
+  letter-spacing:0.06em;text-transform:uppercase;
+  animation:fadeSlideUp 0.6s ease both;
+}
+.hero-tag::before{
+  content:'';width:6px;height:6px;border-radius:50%;
+  background:var(--accent);animation:pulse-dot 2s infinite;
+}
+@keyframes pulse-dot{
+  0%,100%{opacity:1;transform:scale(1)}
+  50%{opacity:0.5;transform:scale(1.4)}
+}
+h1{
+  font-family:var(--font-display);font-weight:800;
+  font-size:3.5rem;line-height:1.08;letter-spacing:-0.03em;
+  color:var(--text-primary);margin-bottom:24px;
+  animation:fadeSlideUp 0.6s ease 0.1s both;
+}
+h1 em{font-style:normal;color:var(--accent)}
+.hero-sub{
+  font-size:1.15rem;color:var(--text-secondary);line-height:1.7;
+  margin-bottom:36px;max-width:480px;
+  animation:fadeSlideUp 0.6s ease 0.2s both;
+}
+.hero-actions{
+  display:flex;gap:16px;flex-wrap:wrap;
+  animation:fadeSlideUp 0.6s ease 0.3s both;
+}
+.btn-primary{
+  display:inline-flex;align-items:center;gap:8px;
+  background:var(--accent);color:var(--bg-deep);
+  padding:14px 28px;border-radius:10px;
+  font-family:var(--font-body);font-weight:600;font-size:0.95rem;
+  text-decoration:none;transition:all 0.3s;
+  box-shadow:0 0 30px var(--accent-glow);
+}
+.btn-primary:hover{
+  background:#00e8b8;transform:translateY(-2px);
+  box-shadow:0 0 40px var(--accent-glow-strong),0 8px 32px rgba(0,0,0,0.4);
+}
+.btn-secondary{
+  display:inline-flex;align-items:center;gap:8px;
+  background:transparent;color:var(--text-primary);
+  padding:14px 28px;border-radius:10px;
+  border:1px solid var(--border-light);
+  font-family:var(--font-body);font-weight:500;font-size:0.95rem;
+  text-decoration:none;transition:all 0.3s;
+}
+.btn-secondary:hover{border-color:var(--accent);color:var(--accent)}
+.hero-proof{
+  display:flex;gap:40px;margin-top:48px;
+  animation:fadeSlideUp 0.6s ease 0.4s both;
+}
+.proof-item{text-align:left}
+.proof-num{font-family:var(--font-display);font-size:1.75rem;font-weight:800;color:var(--accent)}
+.proof-label{font-size:0.8rem;color:var(--text-muted);margin-top:2px}
+
+@keyframes fadeSlideUp{
+  from{opacity:0;transform:translateY(20px)}
+  to{opacity:1;transform:translateY(0)}
+}
+
+/* --- FUNNEL VISUAL --- */
+.funnel-visual{position:relative;animation:fadeSlideUp 0.8s ease 0.3s both}
+.funnel-container{
+  position:relative;background:var(--bg-card);
+  border:1px solid var(--border);border-radius:20px;
+  padding:40px 32px;overflow:hidden;
+}
+.funnel-container::before{
+  content:'';position:absolute;top:0;left:50%;transform:translateX(-50%);
+  width:200px;height:1px;
+  background:linear-gradient(90deg,transparent,var(--accent),transparent);
+}
+.funnel-title{
+  font-family:var(--font-display);font-size:0.75rem;font-weight:700;
+  color:var(--text-muted);letter-spacing:0.12em;text-transform:uppercase;
+  text-align:center;margin-bottom:36px;
+}
+.funnel-step{position:relative;margin-bottom:20px;opacity:0;animation:funnelReveal 0.5s ease both}
+.funnel-step:nth-child(2){animation-delay:0.7s}
+.funnel-step:nth-child(3){animation-delay:1.1s}
+.funnel-step:nth-child(4){animation-delay:1.5s}
+.funnel-step:nth-child(5){animation-delay:1.9s}
+@keyframes funnelReveal{
+  from{opacity:0;transform:translateY(16px) scale(0.97)}
+  to{opacity:1;transform:translateY(0) scale(1)}
+}
+.step-bar{
+  position:relative;border-radius:12px;padding:18px 20px;
+  display:flex;align-items:center;gap:16px;
+  transition:all 0.35s;cursor:default;overflow:hidden;
+}
+.step-bar::before{content:'';position:absolute;inset:0;border-radius:12px;opacity:0;transition:opacity 0.35s}
+.step-bar:hover::before{opacity:1}
+.step-1 .step-bar{background:linear-gradient(135deg,rgba(0,212,170,0.1),rgba(0,212,170,0.03));border:1px solid rgba(0,212,170,0.2);width:100%}
+.step-1 .step-bar::before{background:rgba(0,212,170,0.05)}
+.step-2 .step-bar{background:linear-gradient(135deg,rgba(59,130,246,0.1),rgba(59,130,246,0.03));border:1px solid rgba(59,130,246,0.2);width:88%;margin:0 auto}
+.step-2 .step-bar::before{background:rgba(59,130,246,0.05)}
+.step-3 .step-bar{background:linear-gradient(135deg,rgba(245,158,11,0.1),rgba(245,158,11,0.03));border:1px solid rgba(245,158,11,0.2);width:72%;margin:0 auto}
+.step-3 .step-bar::before{background:rgba(245,158,11,0.05)}
+.step-icon{
+  width:40px;height:40px;border-radius:10px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:1.1rem;flex-shrink:0;
+}
+.step-1 .step-icon{background:rgba(0,212,170,0.15);color:var(--accent)}
+.step-2 .step-icon{background:rgba(59,130,246,0.15);color:var(--blue)}
+.step-3 .step-icon{background:rgba(245,158,11,0.15);color:var(--amber)}
+.step-text h3{font-family:var(--font-display);font-size:0.95rem;font-weight:700;letter-spacing:-0.01em;margin-bottom:2px}
+.step-1 .step-text h3{color:var(--accent)}
+.step-2 .step-text h3{color:var(--blue)}
+.step-3 .step-text h3{color:var(--amber)}
+.step-text p{font-size:0.78rem;color:var(--text-muted);line-height:1.5}
+.funnel-connector{display:flex;justify-content:center;margin:-4px 0;position:relative;z-index:2}
+.connector-arrow{width:2px;height:24px;position:relative}
+.step-1 + .funnel-connector .connector-arrow{background:linear-gradient(to bottom,rgba(0,212,170,0.4),rgba(59,130,246,0.4))}
+.step-2 + .funnel-connector .connector-arrow{background:linear-gradient(to bottom,rgba(59,130,246,0.4),rgba(245,158,11,0.4))}
+.connector-arrow::after{content:'';position:absolute;bottom:-4px;left:50%;transform:translateX(-50%);border-left:5px solid transparent;border-right:5px solid transparent}
+.step-1 + .funnel-connector .connector-arrow::after{border-top:6px solid rgba(59,130,246,0.5)}
+.step-2 + .funnel-connector .connector-arrow::after{border-top:6px solid rgba(245,158,11,0.5)}
+.funnel-result{
+  margin-top:24px;text-align:center;padding:20px;
+  background:linear-gradient(135deg,rgba(0,212,170,0.06),rgba(245,158,11,0.04));
+  border:1px solid rgba(0,212,170,0.12);border-radius:14px;
+  opacity:0;animation:funnelReveal 0.6s ease 2.3s both;
+}
+.result-hours{
+  font-family:var(--font-display);font-size:2.2rem;font-weight:800;
+  background:linear-gradient(135deg,var(--accent),var(--amber));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+}
+.result-label{font-size:0.82rem;color:var(--text-secondary);margin-top:4px}
+
+/* --- SECTIONS --- */
+section{padding:100px 0}
+.section-tag{
+  display:inline-flex;align-items:center;gap:6px;
+  font-family:var(--font-display);font-size:0.7rem;font-weight:700;
+  color:var(--accent);letter-spacing:0.14em;text-transform:uppercase;margin-bottom:16px;
+}
+.section-tag::before{content:'//';opacity:0.5}
+h2{
+  font-family:var(--font-display);font-weight:800;
+  font-size:2.5rem;line-height:1.12;letter-spacing:-0.03em;
+  color:var(--text-primary);margin-bottom:20px;
+}
+h2 em{font-style:normal;color:var(--accent)}
+.section-desc{font-size:1.1rem;color:var(--text-secondary);max-width:600px;line-height:1.7;margin-bottom:56px}
+
+/* --- PLUS AI BANNER --- */
+.plus-ai-banner{
+  text-align:center;padding:80px 0;
+  border-top:1px solid var(--border);border-bottom:1px solid var(--border);
+  background:linear-gradient(180deg,var(--bg-deep),#0a0c12,var(--bg-deep));
+  position:relative;overflow:hidden;
+}
+.plus-ai-banner::before{
+  content:'';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+  width:500px;height:500px;
+  background:radial-gradient(circle,rgba(0,212,170,0.04),transparent 60%);pointer-events:none;
+}
+.plus-ai-tagline{
+  font-family:var(--font-display);font-size:1.1rem;font-weight:600;
+  color:var(--text-muted);letter-spacing:0.08em;text-transform:uppercase;margin-bottom:24px;
+}
+.plus-ai-big{
+  font-family:var(--font-display);font-size:4.5rem;font-weight:800;
+  letter-spacing:-0.04em;margin-bottom:16px;
+}
+.plus-ai-big .plus{color:var(--accent)}
+.plus-ai-big .ai{color:var(--text-primary)}
+.plus-ai-desc{
+  font-size:1.15rem;color:var(--text-secondary);max-width:500px;margin:0 auto;line-height:1.7;
+}
+.plus-ai-uses{
+  display:flex;justify-content:center;gap:32px;margin-top:40px;flex-wrap:wrap;
+}
+.plus-ai-use{
+  background:var(--bg-card);border:1px solid var(--border);border-radius:12px;
+  padding:16px 24px;font-family:var(--font-display);font-weight:700;
+  font-size:0.95rem;color:var(--text-primary);transition:all 0.3s;
+}
+.plus-ai-use .plus{color:var(--accent);font-weight:800}
+.plus-ai-use:hover{border-color:rgba(0,212,170,0.3);transform:translateY(-2px)}
+
+/* --- SERVICES --- */
+#services{background:linear-gradient(180deg,var(--bg-deep) 0%,#0b0d14 100%);border-top:1px solid var(--border)}
+.services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.service-card{
+  background:var(--bg-card);border:1px solid var(--border);
+  border-radius:16px;padding:32px 28px;transition:all 0.4s;
+  position:relative;overflow:hidden;
+}
+.service-card::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:2px;
+  background:linear-gradient(90deg,var(--accent),var(--blue));
+  opacity:0;transition:opacity 0.4s;
+}
+.service-card:hover{border-color:var(--border-light);transform:translateY(-4px);box-shadow:0 16px 48px rgba(0,0,0,0.3)}
+.service-card:hover::before{opacity:1}
+.service-icon{
+  width:48px;height:48px;border-radius:12px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:1.3rem;margin-bottom:20px;background:var(--accent-glow);
+}
+.service-card h3{font-family:var(--font-display);font-size:1.15rem;font-weight:700;letter-spacing:-0.01em;margin-bottom:10px}
+.service-card p{font-size:0.9rem;color:var(--text-secondary);line-height:1.6}
+
+/* --- PROCESS --- */
+#process{position:relative}
+.process-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;position:relative}
+.process-steps::before{
+  content:'';position:absolute;top:40px;left:16.66%;right:16.66%;height:2px;
+  background:linear-gradient(90deg,var(--accent),var(--blue),var(--amber));opacity:0.3;
+}
+.process-step{text-align:center;position:relative;z-index:2}
+.process-num{
+  width:80px;height:80px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  font-family:var(--font-display);font-size:1.6rem;font-weight:800;
+  margin:0 auto 24px;transition:all 0.4s;
+}
+.process-step:nth-child(1) .process-num{background:rgba(0,212,170,0.1);color:var(--accent);border:2px solid rgba(0,212,170,0.3)}
+.process-step:nth-child(2) .process-num{background:rgba(59,130,246,0.1);color:var(--blue);border:2px solid rgba(59,130,246,0.3)}
+.process-step:nth-child(3) .process-num{background:rgba(245,158,11,0.1);color:var(--amber);border:2px solid rgba(245,158,11,0.3)}
+.process-step:hover .process-num{transform:scale(1.1)}
+.process-step h3{font-family:var(--font-display);font-size:1.25rem;font-weight:700;margin-bottom:8px;letter-spacing:-0.01em}
+.process-step:nth-child(1) h3{color:var(--accent)}
+.process-step:nth-child(2) h3{color:var(--blue)}
+.process-step:nth-child(3) h3{color:var(--amber)}
+.process-step p{font-size:0.9rem;color:var(--text-secondary);line-height:1.65;max-width:300px;margin:0 auto}
+.process-price{
+  display:inline-block;margin-top:14px;padding:6px 14px;
+  border-radius:100px;font-size:0.78rem;font-weight:600;letter-spacing:0.02em;
+}
+.process-step:nth-child(1) .process-price{background:rgba(0,212,170,0.1);color:var(--accent);border:1px solid rgba(0,212,170,0.2)}
+.process-step:nth-child(2) .process-price{background:rgba(59,130,246,0.1);color:var(--blue);border:1px solid rgba(59,130,246,0.2)}
+.process-step:nth-child(3) .process-price{background:rgba(245,158,11,0.1);color:var(--amber);border:1px solid rgba(245,158,11,0.2)}
+
+/* --- AUDIT TIERS --- */
+.audit-tiers{
+  display:grid;grid-template-columns:1fr 1fr;gap:16px;
+  margin-top:20px;max-width:380px;margin-left:auto;margin-right:auto;
+}
+.audit-tier{
+  position:relative;
+  border-radius:14px;padding:20px 16px;text-align:center;
+  transition:all 0.35s;cursor:default;overflow:hidden;
+}
+.audit-tier::before{
+  content:'';position:absolute;inset:0;border-radius:14px;
+  opacity:0;transition:opacity 0.35s;
+}
+.audit-tier:hover{transform:translateY(-3px)}
+.audit-tier:hover::before{opacity:1}
+.audit-tier-inperson{
+  background:linear-gradient(135deg,rgba(59,130,246,0.08),rgba(59,130,246,0.02));
+  border:1px solid rgba(59,130,246,0.25);
+}
+.audit-tier-inperson::before{background:rgba(59,130,246,0.05)}
+.audit-tier-inperson:hover{box-shadow:0 8px 32px rgba(59,130,246,0.15)}
+.audit-tier-virtual{
+  background:linear-gradient(135deg,rgba(0,212,170,0.08),rgba(0,212,170,0.02));
+  border:1px solid rgba(0,212,170,0.25);
+}
+.audit-tier-virtual::before{background:rgba(0,212,170,0.05)}
+.audit-tier-virtual:hover{box-shadow:0 8px 32px rgba(0,212,170,0.15)}
+.audit-tier-icon{font-size:1.5rem;margin-bottom:8px;display:block}
+.audit-tier-label{
+  font-family:var(--font-display);font-size:0.82rem;font-weight:700;
+  letter-spacing:-0.01em;margin-bottom:6px;
+}
+.audit-tier-inperson .audit-tier-label{color:var(--blue)}
+.audit-tier-virtual .audit-tier-label{color:var(--accent)}
+.audit-tier-price{
+  font-family:var(--font-display);font-size:1.3rem;font-weight:800;
+  margin-bottom:4px;
+}
+.audit-tier-inperson .audit-tier-price{color:var(--blue)}
+.audit-tier-virtual .audit-tier-price{color:var(--accent)}
+.audit-tier-note{font-size:0.72rem;color:var(--text-muted);line-height:1.4}
+.audit-tier-badge{
+  display:inline-block;
+  font-size:0.65rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;
+  padding:3px 8px;border-radius:100px;margin-bottom:8px;
+}
+.audit-tier-inperson .audit-tier-badge{background:rgba(59,130,246,0.15);color:var(--blue)}
+.audit-tier-virtual .audit-tier-badge{background:rgba(0,212,170,0.15);color:var(--accent)}
+.audit-tier-cta{
+  display:inline-block;margin-top:10px;
+  padding:7px 16px;border-radius:8px;
+  font-family:var(--font-body);font-size:0.72rem;font-weight:700;
+  text-decoration:none;transition:all 0.3s;letter-spacing:0.01em;
+}
+.audit-tier-virtual .audit-tier-cta{
+  background:var(--accent);color:var(--bg-deep);
+}
+.audit-tier-virtual .audit-tier-cta:hover{background:#00e8b8;box-shadow:0 0 16px var(--accent-glow)}
+.audit-tier-inperson .audit-tier-cta{
+  background:var(--blue);color:#ffffff;
+}
+.audit-tier-inperson .audit-tier-cta:hover{background:#4b91f7;box-shadow:0 0 16px rgba(59,130,246,0.3)}
+
+/* --- WHY --- */
+#why{background:var(--bg-card);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.why-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.why-card{padding:28px;border-radius:14px;border:1px solid var(--border);background:var(--bg-deep);transition:all 0.35s}
+.why-card:hover{border-color:rgba(0,212,170,0.2);background:rgba(0,212,170,0.02)}
+.why-card h3{font-family:var(--font-display);font-size:1.05rem;font-weight:700;margin-bottom:8px;color:var(--text-primary)}
+.why-card p{font-size:0.88rem;color:var(--text-secondary);line-height:1.6}
+.why-icon{font-size:1.4rem;margin-bottom:12px;display:block}
+
+/* --- CTA --- */
+#cta{text-align:center;position:relative;overflow:hidden}
+#cta::before{
+  content:'';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+  width:600px;height:600px;
+  background:radial-gradient(circle,rgba(0,212,170,0.06),transparent 60%);pointer-events:none;
+}
+.cta-box{
+  position:relative;z-index:2;background:var(--bg-card);
+  border:1px solid var(--border);border-radius:24px;padding:64px 48px;
+  max-width:720px;margin:0 auto;
+}
+.cta-box h2{margin-bottom:16px}
+.cta-box p{font-size:1.05rem;color:var(--text-secondary);max-width:500px;margin:0 auto 36px;line-height:1.7}
+.cta-details{display:flex;justify-content:center;gap:40px;margin-bottom:36px;flex-wrap:wrap}
+.cta-detail{text-align:center}
+.cta-detail strong{display:block;font-family:var(--font-display);font-size:1rem;color:var(--text-primary)}
+.cta-detail span{font-size:0.78rem;color:var(--text-muted)}
+
+/* --- FOOTER --- */
+footer{padding:48px 0 32px;border-top:1px solid var(--border);background:var(--bg-deep)}
+.footer-inner{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px}
+.footer-logo{display:flex;align-items:center;gap:8px}
+.footer-logo-mark{
+  width:28px;height:28px;border-radius:7px;
+  background:linear-gradient(135deg,var(--accent),#00b894);
+  display:flex;align-items:center;justify-content:center;
+  font-family:var(--font-display);font-weight:800;font-size:0.7rem;color:var(--bg-deep);
+}
+.footer-logo-text{font-family:var(--font-display);font-weight:700;font-size:1rem;color:var(--text-primary)}
+.footer-logo-text span{color:var(--accent)}
+.footer-links{display:flex;gap:24px;list-style:none}
+.footer-links a{font-size:0.85rem;color:var(--text-muted);text-decoration:none;transition:color 0.25s}
+.footer-links a:hover{color:var(--accent)}
+.footer-copy{
+  text-align:center;margin-top:32px;padding-top:24px;
+  border-top:1px solid var(--border);font-size:0.78rem;color:var(--text-muted);
+}
+.footer-location{font-size:0.85rem;color:var(--text-secondary)}
+
+/* --- RESPONSIVE --- */
+@media(max-width:1024px){
+  .hero-grid{grid-template-columns:1fr;gap:48px}
+  .hero-content{max-width:100%}
+  h1{font-size:2.75rem}
+  .services-grid{grid-template-columns:1fr 1fr}
+  .process-steps{grid-template-columns:1fr;gap:48px}
+  .process-steps::before{display:none}
+  .why-grid{grid-template-columns:1fr}
+  .plus-ai-big{font-size:3.5rem}
+}
+@media(max-width:640px){
+  h1{font-size:2.2rem}
+  h2{font-size:2rem}
+  .services-grid{grid-template-columns:1fr}
+  .hero-proof{flex-direction:column;gap:20px}
+  .nav-links{display:none}
+  .step-bar{padding:14px 16px;gap:12px}
+  .funnel-container{padding:28px 20px}
+  .cta-box{padding:40px 24px}
+  .plus-ai-big{font-size:2.5rem}
+  .plus-ai-uses{gap:12px}
+  .audit-tiers{grid-template-columns:1fr 1fr;gap:10px}
+  footer{padding-bottom:80px}
+}
+
+/* --- STICKY MOBILE CALL BAR --- */
+.sticky-call-bar{
+  display:none;
+  position:fixed;bottom:0;left:0;right:0;z-index:200;
+  background:linear-gradient(135deg,#00d4aa,#00b894);
+  padding:0;
+  box-shadow:0 -4px 24px rgba(0,0,0,0.5);
+}
+.sticky-call-bar a{
+  display:flex;align-items:center;justify-content:center;gap:10px;
+  padding:16px 20px;
+  text-decoration:none;color:#08090d;
+  font-family:var(--font-display);font-weight:800;font-size:1.05rem;
+  letter-spacing:-0.01em;
+}
+.sticky-call-bar .call-icon{
+  width:28px;height:28px;border-radius:50%;
+  background:rgba(8,9,13,0.15);
+  display:flex;align-items:center;justify-content:center;
+  font-size:0.9rem;
+}
+.sticky-call-bar .call-text{display:flex;flex-direction:column;align-items:flex-start}
+.sticky-call-bar .call-label{font-size:0.7rem;font-weight:600;opacity:0.7;letter-spacing:0.04em}
+.sticky-call-bar .call-number{font-size:1.05rem;font-weight:800}
+@media(max-width:640px){
+  .sticky-call-bar{display:block}
+}
+</style>
+</head>
+<body>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Add Intelligence Consulting",
+  "alternateName": "+AI Consulting",
+  "description": "AI consulting firm helping small and mid-size businesses implement artificial intelligence solutions including chatbots, workflow automation, and AI-powered analytics.",
+  "url": "https://addintelligence.ai",
+  "areaServed": [
+    {"@type": "AdministrativeArea", "name": "Pinellas County, Florida"},
+    {"@type": "AdministrativeArea", "name": "Hillsborough County, Florida"},
+    {"@type": "City", "name": "Tampa, Florida"},
+    {"@type": "City", "name": "St. Petersburg, Florida"},
+    {"@type": "City", "name": "Clearwater, Florida"}
+  ],
+  "serviceType": ["AI Consulting", "Artificial Intelligence Implementation", "Business Automation", "Chatbot Development"],
+  "telephone": "+1-727-238-7552",
+  "priceRange": "$$",
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens": "09:00",
+    "closes": "18:00"
+  }
+}
+</script>
+
+<!-- NAV -->
+<nav role="navigation" aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="#" class="logo" aria-label="Add Intelligence Home">
+      <div class="logo-mark">+AI</div>
+      <div class="logo-text">Add <span>Intelligence</span></div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#process">How It Works</a></li>
+      <li><a href="#why">Why +AI</a></li>
+      <li><a href="tel:+17272387552" style="color:#ffffff;font-weight:600;">(727) 238-7552</a></li>
+      <li><a href="https://calendly.com/chris-addintelligence/ai-discovery-consultation" target="_blank" rel="noopener" class="nav-cta">Free Consultation →</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero" id="hero">
+  <div class="container">
+    <div class="hero-grid">
+      <div class="hero-content">
+        <div class="hero-tag">Serving Tampa Bay & Beyond</div>
+        <h1>Your business is <em>losing hours</em> to work AI can do in seconds.</h1>
+        <p class="hero-sub">Add Intelligence helps small and mid-size businesses in Pinellas County, Hillsborough County, and across Florida implement AI that eliminates busywork, cuts costs, and frees your team to focus on growth.</p>
+        <div class="hero-actions">
+          <a href="tel:+17272387552" class="btn-primary">Call Us — (727) 238-7552</a>
+          <a href="https://calendly.com/chris-addintelligence/ai-discovery-consultation" target="_blank" rel="noopener" class="btn-secondary">Book Online →</a>
+        </div>
+        <div class="hero-proof">
+          <div class="proof-item">
+            <div class="proof-num">40+</div>
+            <div class="proof-label">Hours saved per month, per client</div>
+          </div>
+          <div class="proof-item">
+            <div class="proof-num">3x</div>
+            <div class="proof-label">Average ROI within 90 days</div>
+          </div>
+          <div class="proof-item">
+            <div class="proof-num">$0</div>
+            <div class="proof-label">To start the conversation</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FUNNEL -->
+      <aside class="funnel-visual" aria-label="Three-step process from consultation to AI implementation">
+        <div class="funnel-container">
+          <div class="funnel-title">Your path to +AI</div>
+          <div class="funnel-step step-1">
+            <div class="step-bar">
+              <div class="step-icon">💬</div>
+              <div class="step-text">
+                <h3>Free Consultation</h3>
+                <p>30-minute call to understand your operations and identify where AI fits</p>
+              </div>
+            </div>
+          </div>
+          <div class="funnel-connector"><div class="connector-arrow"></div></div>
+          <div class="funnel-step step-2">
+            <div class="step-bar">
+              <div class="step-icon">🔍</div>
+              <div class="step-text">
+                <h3>AI Readiness Audit</h3>
+                <p>Virtual or in-person deep-dive to map every AI opportunity in your business</p>
+              </div>
+            </div>
+          </div>
+          <div class="funnel-connector"><div class="connector-arrow"></div></div>
+          <div class="funnel-step step-3">
+            <div class="step-bar">
+              <div class="step-icon">⚡</div>
+              <div class="step-text">
+                <h3>Implement & Automate</h3>
+                <p>We build, install, and manage your custom AI solutions</p>
+              </div>
+            </div>
+          </div>
+          <div class="funnel-result">
+            <div class="result-hours">40+ hrs/month</div>
+            <div class="result-label">of busywork eliminated from your business</div>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<!-- +AI BRAND BANNER -->
+<section class="plus-ai-banner">
+  <div class="container">
+    <div class="plus-ai-tagline">What does it mean to</div>
+    <div class="plus-ai-big"><span class="plus">+</span><span class="ai">AI</span> your business?</div>
+    <p class="plus-ai-desc">It means adding artificial intelligence to every part of your business that's wasting your time and money. We find the gaps, build the solutions, and run them for you.</p>
+    <div class="plus-ai-uses">
+      <div class="plus-ai-use"><span class="plus">+</span>AI your customer service</div>
+      <div class="plus-ai-use"><span class="plus">+</span>AI your sales process</div>
+      <div class="plus-ai-use"><span class="plus">+</span>AI your back office</div>
+      <div class="plus-ai-use"><span class="plus">+</span>AI your marketing</div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" aria-labelledby="services-heading">
+  <div class="container">
+    <div class="section-tag">What We Build</div>
+    <h2 id="services-heading">AI solutions that <em>actually work</em><br>for your business</h2>
+    <p class="section-desc">We don't sell theory. We build and manage real AI tools tailored to how your business actually operates — from customer-facing chatbots to back-office automation.</p>
+    <div class="services-grid">
+      <article class="service-card">
+        <div class="service-icon">🤖</div>
+        <h3>AI Chatbots</h3>
+        <p>24/7 customer support, lead capture, and appointment scheduling that never sleeps. Integrated with your CRM and website.</p>
+      </article>
+      <article class="service-card">
+        <div class="service-icon">⚙️</div>
+        <h3>Workflow Automation</h3>
+        <p>Eliminate data entry, manual follow-ups, and repetitive admin tasks. We connect your tools so work flows without human bottlenecks.</p>
+      </article>
+      <article class="service-card">
+        <div class="service-icon">📊</div>
+        <h3>AI Analytics</h3>
+        <p>Turn your business data into clear, actionable dashboards. Predict trends, spot problems, and make faster decisions.</p>
+      </article>
+      <article class="service-card">
+        <div class="service-icon">📄</div>
+        <h3>Document Processing</h3>
+        <p>Invoices, applications, contracts — let AI read, extract, and organize your paperwork in seconds instead of hours.</p>
+      </article>
+      <article class="service-card">
+        <div class="service-icon">📧</div>
+        <h3>Email & Marketing AI</h3>
+        <p>Personalized email campaigns, smart follow-ups, and content generation that sounds like you — not a robot.</p>
+      </article>
+      <article class="service-card">
+        <div class="service-icon">📞</div>
+        <h3>Voice AI Agents</h3>
+        <p>AI-powered phone systems that handle inbound calls, qualify leads, and book appointments without missing a beat.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process" aria-labelledby="process-heading">
+  <div class="container">
+    <div class="section-tag">How It Works</div>
+    <h2 id="process-heading">From first call to <em>fully automated</em></h2>
+    <p class="section-desc">Every engagement follows a structured path designed to earn your trust, prove the value, and deliver results — with zero risk to start.</p>
+    <div class="process-steps">
+      <div class="process-step">
+        <div class="process-num">1</div>
+        <h3>Free Consultation</h3>
+        <p>A 30-minute conversation where we learn about your business, identify pain points, and show you exactly where AI can make an immediate impact. No pitch, no pressure.</p>
+        <div class="process-price"><a href="tel:+17272387552" style="color:inherit;text-decoration:none;">📞 Call to Discuss</a></div>
+      </div>
+      <div class="process-step">
+        <div class="process-num">2</div>
+        <h3>AI Readiness Audit</h3>
+        <p>Choose virtual or in-person — we assess your operations, map every process, and deliver a prioritized roadmap of AI opportunities ranked by impact.</p>
+        <div class="audit-tiers">
+          <div class="audit-tier audit-tier-virtual">
+            <span class="audit-tier-icon">💻</span>
+            <div class="audit-tier-badge">Remote | Anywhere in the U.S.</div>
+            <div class="audit-tier-label">Virtual Audit</div>
+            <div class="audit-tier-price">Starting at $750</div>
+            <div class="audit-tier-note">We review your tech stack, walk through your operations on video, and deliver a prioritized AI roadmap — without you leaving your desk.</div>
+          </div>
+          <div class="audit-tier audit-tier-inperson">
+            <span class="audit-tier-icon">🏢</span>
+            <div class="audit-tier-badge">Tampa Bay | Hands On</div>
+            <div class="audit-tier-label">In-Person Audit</div>
+            <div class="audit-tier-price">Starting at $1,500</div>
+            <div class="audit-tier-note">We walk your floor, interview your team, and map every workflow in person — finding opportunities you didn't know existed.</div>
+          </div>
+        </div>
+      </div>
+      <div class="process-step">
+        <div class="process-num">3</div>
+        <h3>Build & Launch</h3>
+        <p>We design, build, and deploy your custom AI solutions — then manage them monthly so you can focus on running your business while the busywork disappears.</p>
+        <div class="process-price">Custom packages + monthly management</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section id="why" aria-labelledby="why-heading">
+  <div class="container">
+    <div class="section-tag">Why +AI</div>
+    <h2 id="why-heading">Built for businesses <em>your size</em></h2>
+    <p class="section-desc">Most AI consultancies chase enterprise clients and leave small businesses behind. We exist specifically to close that gap — locally and remotely.</p>
+    <div class="why-grid">
+      <article class="why-card">
+        <span class="why-icon">📍</span>
+        <h3>Local Expertise, National Reach</h3>
+        <p>Based in Tampa Bay serving Pinellas and Hillsborough counties face-to-face — with remote capability to serve businesses anywhere in the U.S.</p>
+      </article>
+      <article class="why-card">
+        <span class="why-icon">🎯</span>
+        <h3>SMB-Focused, Not Enterprise Leftovers</h3>
+        <p>Our solutions, pricing, and process are designed from the ground up for businesses with 5–200 employees. No bloated enterprise pricing.</p>
+      </article>
+      <article class="why-card">
+        <span class="why-icon">🔧</span>
+        <h3>We Build It, We Run It</h3>
+        <p>You don't get a strategy deck and a handshake. We implement the AI, integrate it into your systems, and manage it monthly so it keeps working.</p>
+      </article>
+      <article class="why-card">
+        <span class="why-icon">💰</span>
+        <h3>Prove It Before You Pay Big</h3>
+        <p>Start with a free consultation, move to a focused audit, then scale into implementation. You see value at every step before committing further.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section id="cta" aria-labelledby="cta-heading">
+  <div class="container">
+    <div class="cta-box">
+      <div class="section-tag">Get Started</div>
+      <h2 id="cta-heading">Ready to <em>+AI</em><br>your business?</h2>
+      <p>Start with a free 30-minute consultation. We'll learn about your business and show you exactly where AI can save you time and money. No commitment, no sales pitch.</p>
+      <div class="cta-details">
+        <div class="cta-detail">
+          <strong>30 Minutes</strong>
+          <span>Quick & focused</span>
+        </div>
+        <div class="cta-detail">
+          <strong>100% Free</strong>
+          <span>No strings attached</span>
+        </div>
+        <div class="cta-detail">
+          <strong>In-Person or Remote</strong>
+          <span>Your choice</span>
+        </div>
+      </div>
+      <a href="tel:+17272387552" class="btn-primary" style="font-size:1.1rem;padding:18px 40px">📞  Call Now — (727) 238-7552</a>
+      <p style="margin-top:20px;font-size:0.9rem;color:var(--text-muted)">Prefer to book online? <a href="https://calendly.com/chris-addintelligence/ai-discovery-consultation" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none;font-weight:600">Schedule a time here →</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer role="contentinfo">
+  <div class="container">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-logo">
+          <div class="footer-logo-mark">+AI</div>
+          <div class="footer-logo-text">Add <span>Intelligence</span></div>
+        </div>
+        <p class="footer-location">AI Consulting — Tampa Bay, Florida  |  <a href="tel:+17272387552" style="color:var(--accent);text-decoration:none">(727) 238-7552</a></p>
+      </div>
+      <ul class="footer-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#why">About</a></li>
+        <li><a href="#cta">Contact</a></li>
+      </ul>
+    </div>
+    <p class="footer-copy">© 2026 Add Intelligence Consulting. AI consulting for small and mid-size businesses in Clearwater, St. Petersburg, Tampa, Pinellas County, and Hillsborough County, Florida.</p>
+  </div>
+</footer>
+
+<!-- STICKY MOBILE CALL BAR -->
+<div class="sticky-call-bar">
+  <a href="tel:+17272387552">
+    <div class="call-icon">📞</div>
+    <div class="call-text">
+      <span class="call-label">TAP TO CALL NOW</span>
+      <span class="call-number">(727) 238-7552</span>
+    </div>
+  </a>
+</div>
+
+</body>
+</html>
